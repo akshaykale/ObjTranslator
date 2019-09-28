@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "766815804898",
+    "firebase_url": "https://objtranslator.firebaseio.com",
+    "project_id": "objtranslator",
+    "storage_bucket": "objtranslator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766815804898:android:c4a78a07336a96e7826dbb",
+        "android_client_info": {
+          "package_name": "com.akshay.objtranslator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766815804898-pr22e14higjvlbopivg5v80j3o88b8ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0GhVXaPPQ1m-qmKmzit0sE74G4Fznrhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766815804898-pr22e14higjvlbopivg5v80j3o88b8ju.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
