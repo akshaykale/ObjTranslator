@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Object Translator</string>
+    <string name="camera_usage_rationale">This app requires access to your camera to work.</string>
+    <string name="allow_camera_usage">Allow camera usage</string>
+
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
 </resources>

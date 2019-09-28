@@ -5,22 +5,35 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenLocal()
         
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath 'com.google.gms:google-services:4.3.2'
+        //classpath 'de.undercouch:gradle-download-task:3.4.3'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+}
+
+// Register the plugin at the root level
+plugins {
+    id 'de.undercouch.download' version '3.2.0'
+}
+
+// Make it available everywhere via the project ext:
+ext {
+    Download = de.undercouch.gradle.tasks.download.Download
+    download = download
 }
 
 allprojects {
     repositories {
         google()
         jcenter()
-        
+        mavenLocal()
     }
 }
 
